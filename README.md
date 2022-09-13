@@ -1,6 +1,8 @@
 # auto_strategy
 一个自动更新pcr攻略的插件，更新源[pcr_strategy](https://github.com/SonderXiaoming/pcr_strategy)（欢迎大家pr来保持最新攻略进度）
 
+顺带一提，我懒得搞更新，最好直接pr，有愿意长期维护的可以联系我qq1316864423
+
 ## ★ 如果你喜欢的话，请给仓库点一个star支持一下23333 ★
 
 ## 使用方法
