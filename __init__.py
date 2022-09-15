@@ -91,7 +91,7 @@ async def dragon(bot, ev):
     else:
         await bot.send(ev, "请先发送【更新攻略缓存】")
 
-@sv.on_rex(r"^(屯|存|囤)?体$")
+@sv.on_rex(r"^(屯|存|囤)体$")
 async def save_strength(bot, ev):
     type = 'strength'
     config = load_config(os.path.join(local_path,type,'route.json'))
