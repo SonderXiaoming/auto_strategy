@@ -61,7 +61,7 @@ async def equipment(bot, ev):
     else:
         await bot.send(ev, "请先发送【更新攻略缓存】")
 
-@sv.on_rex(r"^半月刊|大记事|日历$")
+@sv.on_rex(r"^半月刊|大记事$")
 async def half_month(bot, ev):
     type = 'half_month'
     config = load_config(os.path.join(local_path,type,'route.json'))
