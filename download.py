@@ -2,7 +2,7 @@ import os
 from hoshino import aiorequests,logger
 import json
 
-server = "https://raw.fastgit.org/SonderXiaoming/pcr_strategy/main"
+server = "https://raw.githubusercontent.com/SonderXiaoming/pcr_strategy/main"
 
 local_path = os.path.join(os.path.dirname(__file__), 'data')
 
